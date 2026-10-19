@@ -14,7 +14,7 @@ void EXTI_State_Init(void)
     GPIO_InitStructure.GPIO_Mode = GPIO_Mode_IPU; //上拉输入
     GPIO_Init(GPIOA, &GPIO_InitStructure);
 
-    GPIO_EXTILineConfig(GPIO_PortSourceGPIOA, GPIO_PinSource0);
+    GPIO_EXTILineConfig(GPIO_PortSourceGPIOA, GPIO_PinSource5);
 
     EXTI_InitStructure.EXTI_Line = EXTI_Line5;
     EXTI_InitStructure.EXTI_Mode = EXTI_Mode_Interrupt;

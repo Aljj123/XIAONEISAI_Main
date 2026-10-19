@@ -12,7 +12,7 @@
 
 char Serial_RxPacket[100];
 uint8_t Serial_RxFlag;
-float wheel_speed[4];
+
 
 
 void Serial_Init(void)

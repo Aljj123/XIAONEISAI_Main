@@ -5,6 +5,7 @@
 
 extern char Serial_RxPacket[];
 extern uint8_t Serial_RxFlag;
+extern float wheel_speed[4];
 
 void Serial_Init(void);
 void Serial_SendByte(uint8_t Byte);
