@@ -2,10 +2,16 @@
 #define __PWM_H
 
 void PWM_Init(void);
-void PWM_Motor_SetCompare1(uint16_t Compare);
-void PWM_Motor_SetCompare2(uint16_t Compare);
-void PWM_Motor_SetCompare3(uint16_t Compare);
-void PWM_Motor_SetCompare4(uint16_t Compare);
-void PWM_Servo_SetCompare3(uint16_t Compare);
+void Motor_SetPWM1(uint16_t pwm);
+void Motor_SetPWM2(uint16_t pwm);
+void Motor_SetPWM3(uint16_t pwm);
+void Motor_SetPWM4(uint16_t pwm);
 
+
+
+void Servo_Set1(uint16_t val);
+void Servo_Set2(uint16_t val);
+void Servo_Set3(uint16_t val);
+void Servo_Set4(uint16_t val);
+void Servo_Set5(uint16_t val);
 #endif

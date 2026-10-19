@@ -2,6 +2,10 @@
 #define __SERVO_H
 
 void Servo_Init(void);
-void Servo_SetAngle(float Angle);
 
+void Servo1_SetAngle(float Angle);
+void Servo2_SetAngle(float Angle);
+void Servo3_SetAngle(float Angle);
+void Servo4_SetAngle(float Angle);
+void Servo5_SetAngle(float Angle);
 #endif

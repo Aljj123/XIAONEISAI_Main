@@ -14,6 +14,7 @@ int main(void)
 	Serial_Init();
 	PWM_Init();
 	Motor_Init();
+	Motor_AllStop();
 	EXTI_State_Init();
 	
 	
